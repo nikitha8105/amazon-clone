@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amazon</title>
+<style>
+*{margin:0;font-family:Arial}
+body{min-height:100vh;display:flex;flex-direction:column;background:#f2f2f2}
+.bar{display:flex;gap:10px;align-items:center;padding:10px;color:#fff}
+.top{background:#131921}
+.deal,.foot{background:#959ca4;text-align:center;padding:8px}
+.top b{color:#f3a847;font-size:22px}
+.top input{flex:1;padding:6px}
+.top a{color:#fff;text-decoration:none;font-size:14px}
+.hero{background:linear-gradient(90deg,#f3a847,#ffd77a);padding:40px;text-align:center}
+.main{flex:1;display:grid;grid-template-columns:repeat(auto-fit,160px);gap:20px;justify-content:center;padding:20px}
+.card{
+  width:160px;
+  height:160px;
+  background:#fff;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+  cursor:pointer
+}
+.card:hover{
+    background:#f3a847;
+    color:#fff
+}
+</style>
+</head>
+
+<body>
+
+<div class="bar top">
+  <b>🛒 amazon</b>
+  <a href="#">🏠 Home</a>
+  <a href="#">🔥 Deals</a>
+  <a href="#">🛍️ Cart</a>
+  <input placeholder="🔍 Search Amazon">
+</div>
+
+<div class="deal">⚡ Today’s Deals – Save up to 60% 💸</div>
+
+<div class="hero">
+  <h2>✨ Shop Smart, Shop Happy 😊</h2>
+  <p>🚚 Fast delivery • 💰 Best prices • ⭐ Top brands</p>
+</div>
+
+<div class="main">
+  <div class="card">📱<br>Electronics</div>
+  <div class="card">👗<br>Fashion</div>
+  <div class="card">📦<br>Mobiles</div>
+  <div class="card">🏠<br>Home</div>
+  <div class="card">📚<br>Books</div>
+  <div class="card">🍳<br>Appliances</div>
+</div>
+
+<div class="foot">🔝 Back to Top • © Amazon ❤️</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
